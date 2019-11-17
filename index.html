@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pinar Kaya</title>
+    <link rel="shortcut icon" href="https://i.imgur.com/W4JQGRl.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/87ea9562e2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <!-- header -->
+    <!-- Header section represents the left hand side of the page -->
+    <div class="row">
+        <header class="header">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="header-div">
+
+                <h1 id="name">Pinar Kaya</h1>
+                <h4 id="title">Fullstack Developer</h4>
+                <!-- <div> -->
+                <ul class="nav nav-pills" id="header-list">
+
+                    <!-- See FontAwesome cheatsheet for more info -->
+                    <li class="footer-nav"><a href="https://www.linkedin.com/in/pinar-kaya-06b199193/"
+                            class="fa fa-linkedin-square fa-2x" id="nav-link"></a></li>
+                    <li class="footer-nav"><a href="https://www.github.com/pikanyar" class="fa fa-github fa-2x"
+                            id="nav-link"></a></li>
+                    <li class="footer-nav"><a href="mailto:pinnarkayya@gmail.com" class="fa fa-envelope-o fa-2x"
+                            id="nav-link"></a></li>
+                </ul>
+                <p class="text-center" id="button-header">
+                    <!-- About ME button to display/hide the About Me blurb -->
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#aboutme"
+                        aria-expanded="false" aria-controls="aboutme">
+                        About Me
+                    </button>
+                </p>
+                <div class="collapse" id="aboutme">
+
+                    <div class="card card-body" id="button-para">
+                        My name is Pinar Kaya and I'm a Fullstack Web Developer. <br />
+                        <br />
+                        Exceptionally creative and passionate Entry Level Full Stack Web Developer with a stellar
+                        customer service record and superb work ethic , Known as an innovative problem-solver passionate
+                        about developing apps, with a focus on mobile-first design and development ,currently based in
+                        Boston
+                        <br />
+                        <br />
+
+                        I am always looking for new projects to work on, so if you need someone to bring your vision to
+                        life <a href="mailto:pinnarkayya@gmail.com" id="about-email">let's talk!</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="clearfix">...</div>
+
+
+    <!-- Two -->
+    <!-- main content -->
+    <div class="container">
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="main">
+            <!-- skills section -->
+
+            <section>
+                <p class="skills">React | React-Native | MangoDB | Node |</p>
+                <p class="skills">JavaScript | Ruby | SQL | HTML5 | CSS Bootstrap | jQuery | </p>
+            </section>
+
+            <hr />
+
+
+
+            <!-- projects section -->
+            <section class="projects">
+                <h1 class="project-header">Recent Projects</h1>
+                >
+
+                <!-- PROJECT NAV BAR LINES 87-->
+                <nav class="nav justify-content-center" id="project-bar">
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+
+                        <a class="nav-item nav-link active" id="nav-trivia-tab" data-toggle="tab" href="#nav-trivia"
+                            role="tab" aria-controls="nav-profile" aria-selected="false">Trivia Game</a>
+
+                        <a class="nav-item nav-link" id="nav-gif-tab" data-toggle="tab" href="#nav-gif" role="tab"
+                            aria-controls="nav-home" aria-selected="true">Giphy API</a>
+
+
+                        <a class="nav-item nav-link" id="nav-madlibs-tab" data-toggle="tab" href="#nav-madlibs"
+                            role="tab" aria-controls="nav-contact" aria-selected="false">Mad Libs</a>
+
+                        <a class="nav-item nav-link" id="nav-train-tab" data-toggle="tab" href="#nav-train" role="tab"
+                            aria-controls="nav-contact" aria-selected="false">Train Scheduler</a>
+                    </div>
+                </nav>
+
+                <!-- Project Content -->
+                <div class="tab-content" id="nav-tabContent">
+
+
+
+                    <!-- ReciP -->
+                    <div class="tab-pane fade show active" id="nav-trivia" role="tabpanel"
+                        aria-labelledby="nav-trivia-tab">
+                        <!--<div class="text-center" id="project-cont">-->
+
+                        <a href="https://pikanyar.github.io/TriviaGame/" target="_blank">
+
+                            <img src="imgs/Screenshot.png" class="project-img" /> </a>
+                        <div class="desc-container">
+
+                            <a href="https://github.com/pikanyar/TriviaGame" class="project-link">Github
+                                Repo</a>
+
+                            <p class="project-desc"> 3 questions randomly generated with countdown timer for answer. App
+                                gives correct answer after user guess. After 3 questions, app will
+                                display score with the option to restart the game.</p>
+                        </div>
+                        <p class="project-desc">Built with Javascript,Jquery ,HTML, CSS</p>
+
+                    </div>
+
+                    <!-- Cryptotracker -->
+                    <div class="tab-pane fade" id="nav-gif" role="tabpanel" aria-labelledby="nav-gif-tab">
+                        <div class="text-center" id="project-cont">
+                            <a href="https://pikanyar.github.io/GIPHY-API/" target="_blank">
+                                <img src="imgs/Screenshot1.png" class="project-img" /> </a>
+                        </div>
+                        <div class="desc-container">
+                            <a href="https://github.com/pikanyar/GIPHY-API" class="project-link">Github
+                                Repo</a>
+                            <p class="project-desc">Using the GIPHY API I created a dynamic web page that populates with
+                                movies gifs.</p>
+                            <p class="project-desc">Built with Javascript,Jquery ,HTML, CSS</p>
+                        </div>
+                    </div>
+
+                    <!-- Find-A-Pet-->
+                    <div class="tab-pane fade" id="nav-madlibs" role="tabpanel" aria-labelledby="nav-madlibs-tab">
+                        <div class="text-center" id="project-cont">
+                            <a href="https://github.com/zhaoyu-qiao/Project-Madlibs" target="_blank">
+                                <img src="imgs/image.png" class="project-img" /> </a>
+                        </div>
+                        <div class="desc-container">
+                            <a href="https://github.com/zhaoyu-qiao/Project-Madlibs" class="project-link">Github
+                                Repo</a>
+                            <p class="project-desc">Madlib Creator is a library for generating madlib sentences out of
+                                preexisting text corpuses.
+                                <p class="project-desc">Built with Javascript,Jquery ,HTML, CSS</p>
+
+                        </div>
+                    </div>
+
+                    <!-- Workout Logger -->
+                    <div class="tab-pane fade" id="nav-train" role="tabpanel" aria-labelledby="nav-train-tab">
+                        <div class="text-center" id="project-cont">
+                            <a href="https://pikanyar.github.io/-Train-Scheduler/" target="_blank">
+                                <img src="imgs/Screenshot7.png" class="project-img" /> </a>
+                        </div>
+                        <div class="desc-container">
+                            <a href="https://github.com/pikanyar/-Train-Scheduler" class="project-link">Github
+                                Repo</a>
+                            <p class="project-desc">The train schedule application that incorporates Firebase to host
+                                arrival and departure data.App will retrieve and manipulate this information with
+                                Moment.js. This website will provide up-to-date information about various trains, namely
+                                their arrival times and how many minutes remain until they arrive at their station.</p>
+                            <p class="project-desc">Built with Javascript,Jquery ,HTML, CSS</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- container and column div closers -->
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
